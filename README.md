@@ -1,18 +1,18 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/remarkablegames/renpy-template/master/game/gui/window_icon.png" alt="Ren'Py Template">
+  <img src="https://raw.githubusercontent.com/remarkablegames/pink-engine/master/game/gui/window_icon.png" alt="Pink Engine">
 </p>
 
-# Ren'Py Template
+# Pink Engine
 
-![release](https://img.shields.io/github/v/release/remarkablegames/renpy-template)
-[![build](https://github.com/remarkablegames/renpy-template/actions/workflows/build.yml/badge.svg)](https://github.com/remarkablegames/renpy-template/actions/workflows/build.yml)
-[![lint](https://github.com/remarkablegames/renpy-template/actions/workflows/lint.yml/badge.svg)](https://github.com/remarkablegames/renpy-template/actions/workflows/lint.yml)
+![release](https://img.shields.io/github/v/release/remarkablegames/pink-engine)
+[![build](https://github.com/remarkablegames/pink-engine/actions/workflows/build.yml/badge.svg)](https://github.com/remarkablegames/pink-engine/actions/workflows/build.yml)
+[![lint](https://github.com/remarkablegames/pink-engine/actions/workflows/lint.yml/badge.svg)](https://github.com/remarkablegames/pink-engine/actions/workflows/lint.yml)
 
-📖 Write visual novels with Ren'Py Template.
+♦️ Create Ren'Py games with [Pink Engine](https://pink-productions.itch.io/pink-engine).
 
 Play the game on:
 
-- [remarkablegames](https://remarkablegames.org/renpy-template)
+- [remarkablegames](https://remarkablegames.org/pink-engine)
 
 ## Credits
 
@@ -49,18 +49,18 @@ renpy --version
 Clone the repository to the `Projects Directory`:
 
 ```sh
-git clone https://github.com/remarkablegames/renpy-template.git
-cd renpy-template
+git clone https://github.com/remarkablegames/pink-engine.git
+cd pink-engine
 ```
 
 Rename the project:
 
 ```sh
-git grep -l "Ren'Py Template" | xargs sed -i '' -e "s/Ren'Py Template/My Novel/g"
+git grep -l "Pink Engine" | xargs sed -i '' -e "s/Pink Engine/My Game/g"
 ```
 
 ```sh
-git grep -l 'renpy-template' | xargs sed -i '' -e 's/renpy-template/my-novel/g'
+git grep -l 'pink-engine' | xargs sed -i '' -e 's/pink-engine/my-game/g'
 ```
 
 Replace the assets:
