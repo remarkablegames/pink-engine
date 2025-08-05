@@ -1,0 +1,45 @@
+name: build
+on: [push, pull_request]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Ren'Py
+        uses: remarkablegames/setup-renpy@v1
+        with:
+          web: true
+
+      - name: Delete unnecessary files
+        run: >
+          find .
+          ! -name 'progressive_download.txt'
+          ! -name 'web-presplash.jpg'
+          ! -path "*/.*"
+          ! -path "*game*"
+          -delete
+
+      - name: Build web
+        run: |
+          renpy-launcher web_build . --destination web
+          cp web-presplash.jpg web/web-presplash.jpg
+
+      - name: Deploy
+        if: github.ref_name == 'master'
+        uses: remarkablemark/gitploy-action@v1
+        with:
+          directory: web
+
+      - name: Upload artifacts
+        if: github.ref_name == 'master'
+        uses: actions/upload-artifact@v4
+        with:
+          name: web_build
+          path: web
