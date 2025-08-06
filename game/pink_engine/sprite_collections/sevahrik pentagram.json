@@ -1,0 +1,134 @@
+{
+  "animations": [
+    {
+      "name": "off",
+      "images": [
+        "images\/sprite_collections\/sevahrik pentagram\/off0.png"
+      ],
+      "default_speed": 0.1,
+      "image_width": 110,
+      "image_height": 120,
+      "properties": [
+        {
+          "name": "base_offset_x_start",
+          "type": "int",
+          "value": 40
+        },
+        {
+          "name": "base_offset_x_end",
+          "type": "int",
+          "value": 65
+        },
+        {
+          "name": "base_offset_y_start",
+          "type": "int",
+          "value": 66
+        },
+        {
+          "name": "base_offset_y_end",
+          "type": "int",
+          "value": 85
+        }
+      ]
+    },
+    {
+      "name": "smoke",
+      "images": [
+        "images\/sprite_collections\/sevahrik pentagram\/smoke0.png",
+        "images\/sprite_collections\/sevahrik pentagram\/smoke1.png",
+        "images\/sprite_collections\/sevahrik pentagram\/smoke2.png"
+      ],
+      "default_speed": 0.15,
+      "image_width": 110,
+      "image_height": 120,
+      "properties": [
+        {
+          "name": "base_offset_x_start",
+          "type": "int",
+          "value": 40
+        },
+        {
+          "name": "base_offset_x_end",
+          "type": "int",
+          "value": 65
+        },
+        {
+          "name": "base_offset_y_start",
+          "type": "int",
+          "value": 66
+        },
+        {
+          "name": "base_offset_y_end",
+          "type": "int",
+          "value": 85
+        }
+      ]
+    },
+    {
+      "name": "on",
+      "images": [
+        "images\/sprite_collections\/sevahrik pentagram\/on0.png",
+        "images\/sprite_collections\/sevahrik pentagram\/on1.png",
+        "images\/sprite_collections\/sevahrik pentagram\/on2.png"
+      ],
+      "default_speed": 0.15,
+      "image_width": 110,
+      "image_height": 120,
+      "properties": [
+        {
+          "name": "base_offset_x_start",
+          "type": "int",
+          "value": 40
+        },
+        {
+          "name": "base_offset_x_end",
+          "type": "int",
+          "value": 65
+        },
+        {
+          "name": "base_offset_y_start",
+          "type": "int",
+          "value": 66
+        },
+        {
+          "name": "base_offset_y_end",
+          "type": "int",
+          "value": 85
+        }
+      ]
+    },
+    {
+      "name": "evil",
+      "images": [
+        "images\/sprite_collections\/sevahrik pentagram\/evil0.png",
+        "images\/sprite_collections\/sevahrik pentagram\/evil1.png",
+        "images\/sprite_collections\/sevahrik pentagram\/evil2.png"
+      ],
+      "default_speed": 0.15,
+      "image_width": 110,
+      "image_height": 120,
+      "properties": [
+        {
+          "name": "base_offset_x_start",
+          "type": "int",
+          "value": 40
+        },
+        {
+          "name": "base_offset_x_end",
+          "type": "int",
+          "value": 65
+        },
+        {
+          "name": "base_offset_y_start",
+          "type": "int",
+          "value": 66
+        },
+        {
+          "name": "base_offset_y_end",
+          "type": "int",
+          "value": 85
+        }
+      ]
+    }
+  ]
+}

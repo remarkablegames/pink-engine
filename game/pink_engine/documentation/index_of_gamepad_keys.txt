@@ -1,0 +1,28 @@
+This file explains how the buttons on the gamepad map to event names (as can be specified in pink_otm_gamepad_functions).
+As far as I can tell, there's no documentation for this on the ren'py site.
+
+
+Buttons
+                        PRESSED                         HELD                            RELEASE
+Gamepad left        pad_dpleft_press            repeat_pad_dpleft_press             pad_dpleft_release
+Gamepad right       pad_dpright_press           repeat_pad_dpright_press            pad_dpright_release
+Gamepad up          pad_dpup_press              repeat_pad_dpup_press               pad_dpup_release
+Gamepad down        pad_dpdown_press            repeat_pad_dpdown_press             pad_dpdown_release
+Gamepad A           pad_a_press                 repeat_pad_a_press                  pad_a_release
+Gamepad B           pad_b_press                 repeat_pad_b_press                  pad_b_release
+Gamepad X           pad_x_press                 repeat_pad_x_press                  pad_x_release
+Gamepad Y           pad_y_press                 repeat_pad_y_press                  pad_y_release
+Select              pad_back_press              repeat_pad_back_press               pad_back_release
+Start               pad_start_press             repeat_pad_start_press              pad_start_release
+Left Shoulder       pad_leftshoulder_press      repeat_pad_leftshoulder_press       pad_leftshoulder_release
+Right Shoulder      pad_rightshoulder_press     repeat_pad_rightshoulder_press      pad_rightshoulder_release
+Left Trigger        pad_lefttrigger_pos         repeat_pad_lefttrigger_pos          pad_lefttrigger_zero
+Right Trigger       pad_righttrigger_pos        repeat_pad_righttrigger_pos         pad_righttrigger_zero
+Left stick          pad_leftstick_press         repeat_pad_leftstick_press          pad_leftstick_release
+Right stick         pad_rightstick_press        repeat_pad_rightstick_press         pad_rightstick_release
+
+
+Sticks
+                     LEFT               X-MIDDLE            RIGHT              UP              Y-MIDDLE             DOWN
+Left stick      pad_leftx_neg       pad_leftx_zero      pad_leftx_pos    pad_lefty_neg      pad_lefty_zero      pad_lefty_pos
+Right stick     pad_rightx_neg      pad_rightx_zero     pad_rightx_pos   pad_righty_neg     pad_righty_zero     pad_righty_pos

@@ -1,0 +1,396 @@
+{ "compressionlevel":-1,
+ "height":34,
+ "infinite":false,
+ "layers":[
+        {
+         "data":[37, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 40,
+            41, 150, 146, 146, 146, 146, 146, 146, 146, 146, 146, 146, 146, 146, 146, 146, 146, 146, 146, 146, 146, 146, 146, 146, 146, 146, 146, 146, 146, 146, 146, 149, 41,
+            41, 147, 144, 144, 144, 144, 144, 144, 144, 144, 144, 144, 144, 144, 144, 144, 144, 144, 144, 144, 144, 144, 144, 144, 144, 144, 144, 144, 144, 144, 144, 148, 41,
+            41, 80, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 83, 41,
+            41, 65, 51, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 54, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 50, 67, 41,
+            41, 65, 67, 131, 136, 136, 136, 136, 136, 136, 136, 136, 136, 136, 136, 134, 88, 131, 136, 136, 136, 136, 136, 136, 136, 136, 136, 136, 136, 134, 65, 67, 41,
+            41, 65, 67, 135, 80, 64, 64, 64, 64, 64, 64, 64, 64, 64, 83, 135, 88, 135, 80, 64, 64, 64, 64, 64, 64, 64, 64, 64, 83, 135, 65, 67, 41,
+            41, 65, 67, 135, 65, 48, 48, 48, 48, 48, 48, 48, 48, 48, 67, 135, 88, 135, 65, 48, 48, 48, 48, 48, 48, 48, 48, 48, 67, 135, 65, 67, 41,
+            41, 65, 67, 135, 65, 48, 48, 48, 48, 48, 48, 48, 48, 48, 67, 135, 88, 135, 65, 48, 48, 48, 48, 48, 48, 48, 48, 48, 67, 135, 65, 67, 41,
+            41, 65, 67, 135, 65, 48, 48, 48, 48, 48, 48, 48, 48, 48, 67, 135, 88, 135, 65, 48, 48, 48, 48, 48, 48, 48, 48, 48, 67, 135, 65, 67, 41,
+            41, 65, 67, 135, 65, 48, 48, 48, 48, 48, 48, 48, 48, 48, 67, 135, 88, 135, 65, 48, 48, 48, 48, 48, 48, 48, 48, 48, 67, 135, 65, 67, 41,
+            41, 65, 67, 135, 65, 48, 48, 48, 48, 48, 48, 48, 48, 48, 67, 135, 88, 135, 65, 48, 48, 48, 48, 48, 48, 48, 48, 48, 67, 135, 65, 67, 41,
+            41, 65, 67, 135, 65, 48, 48, 48, 48, 48, 48, 48, 48, 48, 67, 135, 88, 135, 65, 48, 48, 48, 48, 48, 48, 48, 48, 48, 67, 135, 65, 67, 41,
+            41, 65, 67, 135, 65, 48, 48, 48, 48, 48, 48, 48, 48, 48, 67, 135, 88, 135, 65, 48, 48, 48, 48, 48, 48, 48, 48, 48, 67, 135, 65, 67, 41,
+            41, 65, 67, 135, 65, 48, 48, 48, 48, 48, 48, 48, 48, 48, 67, 135, 88, 135, 65, 48, 48, 48, 48, 48, 48, 48, 48, 48, 67, 135, 65, 67, 41,
+            41, 65, 67, 135, 65, 48, 48, 48, 48, 48, 48, 48, 48, 48, 67, 135, 88, 135, 65, 48, 48, 48, 48, 48, 48, 48, 48, 48, 67, 135, 65, 67, 41,
+            41, 65, 67, 135, 65, 48, 48, 48, 48, 48, 48, 48, 48, 48, 67, 135, 88, 135, 65, 48, 48, 48, 48, 48, 48, 48, 48, 48, 67, 135, 65, 67, 41,
+            41, 65, 67, 135, 65, 48, 48, 48, 48, 48, 48, 48, 48, 48, 67, 135, 90, 135, 65, 48, 48, 48, 48, 48, 48, 48, 48, 48, 67, 135, 65, 67, 41,
+            41, 65, 67, 135, 65, 48, 48, 48, 48, 48, 48, 48, 48, 48, 67, 132, 136, 133, 65, 48, 48, 48, 48, 48, 48, 48, 48, 48, 67, 135, 65, 67, 41,
+            41, 65, 67, 135, 65, 48, 48, 48, 48, 48, 48, 48, 48, 48, 52, 64, 64, 64, 49, 48, 48, 48, 48, 48, 48, 48, 48, 48, 67, 135, 65, 67, 41,
+            41, 65, 67, 135, 65, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 67, 135, 65, 67, 41,
+            41, 65, 67, 135, 65, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 67, 135, 65, 67, 41,
+            41, 65, 67, 135, 65, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 67, 135, 65, 67, 41,
+            41, 65, 67, 135, 65, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 67, 135, 65, 67, 41,
+            41, 65, 67, 135, 65, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 67, 135, 65, 67, 41,
+            41, 65, 67, 135, 65, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 67, 135, 65, 67, 41,
+            41, 65, 67, 135, 65, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 67, 135, 65, 67, 41,
+            41, 65, 67, 135, 65, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 67, 135, 65, 67, 41,
+            41, 65, 67, 135, 81, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 82, 135, 65, 67, 41,
+            41, 65, 67, 132, 136, 136, 136, 136, 136, 136, 136, 136, 136, 136, 136, 136, 136, 136, 136, 136, 136, 136, 136, 136, 136, 136, 136, 136, 136, 133, 65, 67, 41,
+            41, 65, 52, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 49, 67, 41,
+            41, 65, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 67, 41,
+            24, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 36, 48, 33, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 27,
+            34, 19, 19, 19, 19, 19, 19, 19, 19, 19, 19, 19, 19, 19, 19, 25, 42, 26, 19, 19, 19, 19, 19, 19, 19, 19, 19, 19, 19, 19, 19, 19, 35],
+         "height":34,
+         "id":1,
+         "name":"sub_tiles_100",
+         "opacity":1,
+         "properties":[
+                {
+                 "name":"layer_type",
+                 "type":"string",
+                 "value":"sub"
+                }, 
+                {
+                 "name":"z_order",
+                 "type":"int",
+                 "value":100
+                }],
+         "type":"tilelayer",
+         "visible":true,
+         "width":33,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":6,
+         "name":"sub_doodads_101 (signs)",
+         "objects":[
+                {
+                 "class":"",
+                 "gid":353,
+                 "height":64,
+                 "id":18,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"event_on_activate",
+                         "type":"string",
+                         "value":"test_corridor_E27_sign"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":64,
+                 "x":1024,
+                 "y":192
+                }, 
+                {
+                 "class":"",
+                 "gid":397,
+                 "height":40,
+                 "id":25,
+                 "name":"",
+                 "rotation":0,
+                 "visible":true,
+                 "width":16,
+                 "x":1088,
+                 "y":112
+                }, 
+                {
+                 "class":"",
+                 "gid":412,
+                 "height":40,
+                 "id":45,
+                 "name":"",
+                 "rotation":0,
+                 "visible":true,
+                 "width":16,
+                 "x":1072,
+                 "y":112
+                }, 
+                {
+                 "class":"",
+                 "gid":400,
+                 "height":40,
+                 "id":46,
+                 "name":"",
+                 "rotation":0,
+                 "visible":true,
+                 "width":16,
+                 "x":1104,
+                 "y":112
+                }, 
+                {
+                 "class":"",
+                 "gid":347,
+                 "height":64,
+                 "id":67,
+                 "name":"",
+                 "rotation":0,
+                 "visible":true,
+                 "width":64,
+                 "x":956,
+                 "y":388
+                }, 
+                {
+                 "class":"",
+                 "gid":347,
+                 "height":64,
+                 "id":68,
+                 "name":"",
+                 "rotation":0,
+                 "visible":true,
+                 "width":64,
+                 "x":964,
+                 "y":1212
+                }, 
+                {
+                 "class":"",
+                 "gid":347,
+                 "height":64,
+                 "id":69,
+                 "name":"",
+                 "rotation":0,
+                 "visible":true,
+                 "width":64,
+                 "x":1084,
+                 "y":1212
+                }, 
+                {
+                 "class":"",
+                 "gid":347,
+                 "height":64,
+                 "id":70,
+                 "name":"",
+                 "rotation":0,
+                 "visible":true,
+                 "width":64,
+                 "x":1092,
+                 "y":388
+                }, 
+                {
+                 "class":"",
+                 "gid":347,
+                 "height":64,
+                 "id":71,
+                 "name":"",
+                 "rotation":0,
+                 "visible":true,
+                 "width":64,
+                 "x":1852,
+                 "y":388
+                }, 
+                {
+                 "class":"",
+                 "gid":347,
+                 "height":64,
+                 "id":72,
+                 "name":"",
+                 "rotation":0,
+                 "visible":true,
+                 "width":64,
+                 "x":1852,
+                 "y":1916
+                }, 
+                {
+                 "class":"",
+                 "gid":347,
+                 "height":64,
+                 "id":73,
+                 "name":"",
+                 "rotation":0,
+                 "visible":true,
+                 "width":64,
+                 "x":196,
+                 "y":1916
+                }, 
+                {
+                 "class":"",
+                 "gid":347,
+                 "height":64,
+                 "id":74,
+                 "name":"",
+                 "rotation":0,
+                 "visible":true,
+                 "width":64,
+                 "x":196,
+                 "y":388
+                }, 
+                {
+                 "class":"",
+                 "gid":404,
+                 "height":40,
+                 "id":76,
+                 "name":"",
+                 "rotation":0,
+                 "visible":true,
+                 "width":16,
+                 "x":1120,
+                 "y":112
+                }],
+         "opacity":1,
+         "properties":[
+                {
+                 "name":"layer_type",
+                 "type":"string",
+                 "value":"sub"
+                }, 
+                {
+                 "name":"z_order",
+                 "type":"int",
+                 "value":101
+                }],
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":5,
+         "name":"dyn_doodads_101 (shadows)",
+         "objects":[
+                {
+                 "class":"",
+                 "gid":361,
+                 "height":1984,
+                 "id":10,
+                 "name":"",
+                 "rotation":0,
+                 "visible":true,
+                 "width":32,
+                 "x":64,
+                 "y":2048
+                }],
+         "opacity":1,
+         "properties":[
+                {
+                 "name":"layer_type",
+                 "type":"string",
+                 "value":"dynamic"
+                }, 
+                {
+                 "name":"z_order",
+                 "type":"int",
+                 "value":101
+                }],
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":7,
+         "name":"dynamic_doodads_100 (PC)",
+         "objects":[
+                {
+                 "class":"",
+                 "gid":475,
+                 "height":64,
+                 "id":77,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"default_control_stack",
+                         "type":"string",
+                         "value":"[\n  ControlCommand(\"go_to\", target=(17, 18)),\n  ControlCommand(\"play_sound\", path=\"music\/pop.wav\", pan_sound=True, scale_sound=True),\n  ControlCommand(\"go_to\", target=(15, 18)),\n  ControlCommand(\"play_sound\", path=\"music\/hop.wav\", pan_sound=True, scale_sound=True),\n  ControlCommand(\"go_to\", target=(15, 5)),\n  ControlCommand(\"play_sound\", path=\"music\/pop.wav\", pan_sound=True, scale_sound=True),\n  ControlCommand(\"go_to\", target=(3, 5)),\n  ControlCommand(\"play_sound\", path=\"music\/hop.wav\", pan_sound=True, scale_sound=True),\n  ControlCommand(\"go_to\", target=(3, 29)),\n  ControlCommand(\"play_sound\", path=\"music\/pop.wav\", pan_sound=True, scale_sound=True),\n  ControlCommand(\"go_to\", target=(29, 29)),\n  ControlCommand(\"play_sound\", path=\"music\/hop.wav\", pan_sound=True, scale_sound=True),\n  ControlCommand(\"go_to\", target=(29, 5)),\n  ControlCommand(\"play_sound\", path=\"music\/pop.wav\", pan_sound=True, scale_sound=True),\n  ControlCommand(\"go_to\", target=(17, 5)),\n  ControlCommand(\"play_sound\", path=\"music\/hop.wav\", pan_sound=True, scale_sound=True)\n]"
+                        }, 
+                        {
+                         "name":"movement_speed",
+                         "type":"float",
+                         "value":0.3
+                        }, 
+                        {
+                         "name":"sprite_collection_path",
+                         "type":"string",
+                         "value":"pink_engine\/sprite_collections\/sevarihk arabian youth.json"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":64,
+                 "x":1088,
+                 "y":448
+                }],
+         "opacity":1,
+         "properties":[
+                {
+                 "name":"layer_type",
+                 "type":"string",
+                 "value":"dynamic"
+                }, 
+                {
+                 "name":"z_order",
+                 "type":"int",
+                 "value":100
+                }],
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":3,
+         "name":"interact",
+         "objects":[
+                {
+                 "class":"",
+                 "gid":474,
+                 "height":64,
+                 "id":42,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"event_on_activate",
+                         "type":"string",
+                         "value":"pink_otm_transition"
+                        }, 
+                        {
+                         "name":"event_on_activate_kwargs",
+                         "type":"string",
+                         "value":"renpy.store.pink_return_merged_dict(renpy.store.test_lab_door_invisible_settings, {'target_map': 'test_corridor_E.json', 'x_coord': 85, 'y_coord': 3})"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":64,
+                 "x":1024,
+                 "y":2176
+                }],
+         "opacity":1,
+         "properties":[
+                {
+                 "name":"layer_type",
+                 "type":"string",
+                 "value":"interaction"
+                }],
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
+        }],
+ "nextlayerid":8,
+ "nextobjectid":78,
+ "orientation":"orthogonal",
+ "renderorder":"right-down",
+ "tiledversion":"1.9.2",
+ "tileheight":64,
+ "tilesets":[
+        {
+         "firstgid":1,
+         "source":"..\/tilesets\/tileset_testlab_64_64.json"
+        }, 
+        {
+         "firstgid":347,
+         "source":"..\/tilesets\/tileset_setlab_objects_64_64.json"
+        }, 
+        {
+         "firstgid":396,
+         "source":"..\/tilesets\/tileset_testlab_alphabet.json"
+        }, 
+        {
+         "firstgid":434,
+         "source":"..\/tilesets\/generic_icons.json"
+        }],
+ "tilewidth":64,
+ "type":"map",
+ "version":"1.9",
+ "width":33
+}

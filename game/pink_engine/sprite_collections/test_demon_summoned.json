@@ -1,0 +1,18 @@
+{
+  "animations": [
+    {
+      "name": "hover",
+      "default_speed": 0.2,
+      "images": ["images\/sprite_collections\/test_demon_summoned\/hover_01.png", "images\/sprite_collections\/test_demon_summoned\/hover_02.png", "images\/sprite_collections\/test_demon_summoned\/hover_03.png", "images\/sprite_collections\/test_demon_summoned\/hover_04.png"],
+      "image_height":100,
+      "image_width":49,
+      "properties":[
+          {"name":"move_to", "type":"string", "value":"0000"},
+          {"name":"base_offset_x_start", "type":"int", "value":10},
+          {"name":"base_offset_x_end", "type":"int", "value":54},
+          {"name":"base_offset_y_start", "type":"int", "value":78},
+          {"name":"base_offset_y_end", "type":"int", "value":96}
+      ]
+    }
+  ]
+}

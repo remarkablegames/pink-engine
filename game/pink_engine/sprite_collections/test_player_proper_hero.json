@@ -1,0 +1,260 @@
+{
+  "animations": [
+    {
+      "name": "stand_left",
+      "default_speed": 0.1,
+      "images": [
+        "images\/sprite_collections\/test_proper_hero\/walk_left_1.png"
+      ],
+      "image_height": 64,
+      "image_width": 64,
+      "properties": [
+        {
+          "name": "move_to",
+          "type": "string",
+          "value": "0000"
+        },
+        {"name": "base_offset_x_start", "type": "int", "value": 26},
+        {"name": "base_offset_x_end", "type": "int", "value": 38},
+        {"name": "base_offset_y_start", "type": "int", "value": 53},
+        {"name": "base_offset_y_end", "type": "int", "value": 63}
+      ]
+    },
+    {
+      "name": "walk_left",
+      "default_speed": 0.1,
+      "images": [
+        "images\/sprite_collections\/test_proper_hero\/walk_left_2.png",
+        "images\/sprite_collections\/test_proper_hero\/walk_left_0.png",
+        "images\/sprite_collections\/test_proper_hero\/walk_left_1.png"
+      ],
+      "image_height": 64,
+      "image_width": 64,
+      "properties": [
+        {
+          "name": "move_to",
+          "type": "string",
+          "value": "0000"
+        },
+        {"name": "base_offset_x_start", "type": "int", "value": 26},
+        {"name": "base_offset_x_end", "type": "int", "value": 38},
+        {"name": "base_offset_y_start", "type": "int", "value": 53},
+        {"name": "base_offset_y_end", "type": "int", "value": 63}
+      ]
+    },
+    {
+      "name": "run_left",
+      "default_speed": 0.07,
+      "images": [
+        "images\/sprite_collections\/test_proper_hero\/walk_left_2.png",
+        "images\/sprite_collections\/test_proper_hero\/walk_left_0.png",
+        "images\/sprite_collections\/test_proper_hero\/walk_left_1.png"
+      ],
+      "image_height": 64,
+      "image_width": 64,
+      "properties": [
+        {
+          "name": "move_to",
+          "type": "string",
+          "value": "0000"
+        },
+        {"name": "base_offset_x_start", "type": "int", "value": 26},
+        {"name": "base_offset_x_end", "type": "int", "value": 38},
+        {"name": "base_offset_y_start", "type": "int", "value": 53},
+        {"name": "base_offset_y_end", "type": "int", "value": 63}
+      ]
+    },
+    {
+      "name": "stand_right",
+      "default_speed": 0.1,
+      "images": [
+        "images\/sprite_collections\/test_proper_hero\/walk_right_1.png"
+      ],
+      "image_height": 64,
+      "image_width": 64,
+      "properties": [
+        {
+          "name": "move_to",
+          "type": "string",
+          "value": "0000"
+        },
+        {"name": "base_offset_x_start", "type": "int", "value": 26},
+        {"name": "base_offset_x_end", "type": "int", "value": 38},
+        {"name": "base_offset_y_start", "type": "int", "value": 53},
+        {"name": "base_offset_y_end", "type": "int", "value": 63}
+      ]
+    },
+    {
+      "name": "walk_right",
+      "default_speed": 0.1,
+      "images": [
+        "images\/sprite_collections\/test_proper_hero\/walk_right_2.png",
+        "images\/sprite_collections\/test_proper_hero\/walk_right_0.png",
+        "images\/sprite_collections\/test_proper_hero\/walk_right_1.png"
+      ],
+      "image_height": 64,
+      "image_width": 64,
+      "properties": [
+        {
+          "name": "move_to",
+          "type": "string",
+          "value": "0000"
+        },
+        {"name": "base_offset_x_start", "type": "int", "value": 26},
+        {"name": "base_offset_x_end", "type": "int", "value": 38},
+        {"name": "base_offset_y_start", "type": "int", "value": 53},
+        {"name": "base_offset_y_end", "type": "int", "value": 63}
+      ]
+    },
+    {
+      "name": "run_right",
+      "default_speed": 0.07,
+      "images": [
+        "images\/sprite_collections\/test_proper_hero\/walk_right_2.png",
+        "images\/sprite_collections\/test_proper_hero\/walk_right_0.png",
+        "images\/sprite_collections\/test_proper_hero\/walk_right_1.png"
+      ],
+      "image_height": 64,
+      "image_width": 64,
+      "properties": [
+        {
+          "name": "move_to",
+          "type": "string",
+          "value": "0000"
+        },
+        {"name": "base_offset_x_start", "type": "int", "value": 26},
+        {"name": "base_offset_x_end", "type": "int", "value": 38},
+        {"name": "base_offset_y_start", "type": "int", "value": 53},
+        {"name": "base_offset_y_end", "type": "int", "value": 63}
+      ]
+    },
+    {
+      "name": "stand_up",
+      "default_speed": 0.1,
+      "images": [
+        "images\/sprite_collections\/test_proper_hero\/walk_up_1.png"
+      ],
+      "image_height": 64,
+      "image_width": 64,
+      "properties": [
+        {
+          "name": "move_to",
+          "type": "string",
+          "value": "0000"
+        },
+        {"name": "base_offset_x_start", "type": "int", "value": 26},
+        {"name": "base_offset_x_end", "type": "int", "value": 38},
+        {"name": "base_offset_y_start", "type": "int", "value": 53},
+        {"name": "base_offset_y_end", "type": "int", "value": 63}
+      ]
+    },
+    {
+      "name": "walk_up",
+      "default_speed": 0.1,
+      "images": [
+        "images\/sprite_collections\/test_proper_hero\/walk_up_2.png",
+        "images\/sprite_collections\/test_proper_hero\/walk_up_0.png",
+        "images\/sprite_collections\/test_proper_hero\/walk_up_1.png"
+      ],
+      "image_height": 64,
+      "image_width": 64,
+      "properties": [
+        {
+          "name": "move_to",
+          "type": "string",
+          "value": "0000"
+        },
+        {"name": "base_offset_x_start", "type": "int", "value": 26},
+        {"name": "base_offset_x_end", "type": "int", "value": 38},
+        {"name": "base_offset_y_start", "type": "int", "value": 53},
+        {"name": "base_offset_y_end", "type": "int", "value": 63}
+      ]
+    },
+    {
+      "name": "run_up",
+      "default_speed": 0.07,
+      "images": [
+        "images\/sprite_collections\/test_proper_hero\/walk_up_2.png",
+        "images\/sprite_collections\/test_proper_hero\/walk_up_0.png",
+        "images\/sprite_collections\/test_proper_hero\/walk_up_1.png"
+      ],
+      "image_height": 64,
+      "image_width": 64,
+      "properties": [
+        {
+          "name": "move_to",
+          "type": "string",
+          "value": "0000"
+        },
+        {"name": "base_offset_x_start", "type": "int", "value": 26},
+        {"name": "base_offset_x_end", "type": "int", "value": 38},
+        {"name": "base_offset_y_start", "type": "int", "value": 53},
+        {"name": "base_offset_y_end", "type": "int", "value": 63}
+      ]
+    },
+    {
+      "name": "stand_down",
+      "default_speed": 0.1,
+      "images": [
+        "images\/sprite_collections\/test_proper_hero\/walk_down_1.png"
+      ],
+      "image_height": 64,
+      "image_width": 64,
+      "properties": [
+        {
+          "name": "move_to",
+          "type": "string",
+          "value": "0000"
+        },
+        {"name": "base_offset_x_start", "type": "int", "value": 26},
+        {"name": "base_offset_x_end", "type": "int", "value": 38},
+        {"name": "base_offset_y_start", "type": "int", "value": 53},
+        {"name": "base_offset_y_end", "type": "int", "value": 63}
+      ]
+    },
+    {
+      "name": "walk_down",
+      "default_speed": 0.1,
+      "images": [
+        "images\/sprite_collections\/test_proper_hero\/walk_down_2.png",
+        "images\/sprite_collections\/test_proper_hero\/walk_down_0.png",
+        "images\/sprite_collections\/test_proper_hero\/walk_down_1.png"
+      ],
+      "image_height": 64,
+      "image_width": 64,
+      "properties": [
+        {
+          "name": "move_to",
+          "type": "string",
+          "value": "0000"
+        },
+        {"name": "base_offset_x_start", "type": "int", "value": 26},
+        {"name": "base_offset_x_end", "type": "int", "value": 38},
+        {"name": "base_offset_y_start", "type": "int", "value": 53},
+        {"name": "base_offset_y_end", "type": "int", "value": 63}
+      ]
+    },
+    {
+      "name": "run_down",
+      "default_speed": 0.07,
+      "images": [
+        "images\/sprite_collections\/test_proper_hero\/walk_down_2.png",
+        "images\/sprite_collections\/test_proper_hero\/walk_down_0.png",
+        "images\/sprite_collections\/test_proper_hero\/walk_down_1.png"
+      ],
+      "image_height": 64,
+      "image_width": 64,
+      "properties": [
+        {
+          "name": "move_to",
+          "type": "string",
+          "value": "0000"
+        },
+        {"name": "base_offset_x_start", "type": "int", "value": 26},
+        {"name": "base_offset_x_end", "type": "int", "value": 38},
+        {"name": "base_offset_y_start", "type": "int", "value": 53},
+        {"name": "base_offset_y_end", "type": "int", "value": 63}
+      ]
+    }
+  ]
+}

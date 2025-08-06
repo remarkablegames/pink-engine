@@ -1,0 +1,436 @@
+{
+  "animations": [
+    {
+      "name": "stand_down",
+      "images": [
+        "images\/sprite_collections\/test_player_square\/test_player_square.png"
+      ],
+      "default_speed": 1.0,
+      "image_width": 64,
+      "image_height": 64,
+      "properties": [
+        {
+          "name": "move_to",
+          "type": "str",
+          "value": "0000"
+        },
+        {
+          "name": "base_offset_x_start",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "base_offset_y_start",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "base_offset_x_end",
+          "type": "int",
+          "value": 64
+        },
+        {
+          "name": "base_offset_y_end",
+          "type": "int",
+          "value": 64
+        }
+      ]
+    },
+    {
+      "name": "walk_down",
+      "images": [
+        "images\/sprite_collections\/test_player_square\/test_player_square.png"
+      ],
+      "default_speed": 0.14,
+      "image_width": 64,
+      "image_height": 64,
+      "properties": [
+        {
+          "name": "move_to",
+          "type": "str",
+          "value": "0000"
+        },
+        {
+          "name": "base_offset_x_start",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "base_offset_y_start",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "base_offset_x_end",
+          "type": "int",
+          "value": 64
+        },
+        {
+          "name": "base_offset_y_end",
+          "type": "int",
+          "value": 64
+        }
+      ]
+    },
+    {
+      "name": "run_down",
+      "images": [
+        "images\/sprite_collections\/test_player_square\/test_player_square.png"
+      ],
+      "default_speed": 0.1,
+      "image_width": 64,
+      "image_height": 64,
+      "properties": [
+        {
+          "name": "move_to",
+          "type": "str",
+          "value": "0000"
+        },
+        {
+          "name": "base_offset_x_start",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "base_offset_y_start",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "base_offset_x_end",
+          "type": "int",
+          "value": 64
+        },
+        {
+          "name": "base_offset_y_end",
+          "type": "int",
+          "value": 64
+        }
+      ]
+    },
+    {
+      "name": "stand_left",
+      "images": [
+        "images\/sprite_collections\/test_player_square\/test_player_square.png"
+      ],
+      "default_speed": 1.0,
+      "image_width": 64,
+      "image_height": 64,
+      "properties": [
+        {
+          "name": "move_to",
+          "type": "str",
+          "value": "0000"
+        },
+        {
+          "name": "base_offset_x_start",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "base_offset_y_start",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "base_offset_x_end",
+          "type": "int",
+          "value": 64
+        },
+        {
+          "name": "base_offset_y_end",
+          "type": "int",
+          "value": 64
+        }
+      ]
+    },
+    {
+      "name": "walk_left",
+      "images": [
+        "images\/sprite_collections\/test_player_square\/test_player_square.png"
+      ],
+      "default_speed": 0.14,
+      "image_width": 64,
+      "image_height": 64,
+      "properties": [
+        {
+          "name": "move_to",
+          "type": "str",
+          "value": "0000"
+        },
+        {
+          "name": "base_offset_x_start",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "base_offset_y_start",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "base_offset_x_end",
+          "type": "int",
+          "value": 64
+        },
+        {
+          "name": "base_offset_y_end",
+          "type": "int",
+          "value": 64
+        }
+      ]
+    },
+    {
+      "name": "run_left",
+      "images": [
+        "images\/sprite_collections\/test_player_square\/test_player_square.png"
+      ],
+      "default_speed": 0.1,
+      "image_width": 64,
+      "image_height": 64,
+      "properties": [
+        {
+          "name": "move_to",
+          "type": "str",
+          "value": "0000"
+        },
+        {
+          "name": "base_offset_x_start",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "base_offset_y_start",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "base_offset_x_end",
+          "type": "int",
+          "value": 64
+        },
+        {
+          "name": "base_offset_y_end",
+          "type": "int",
+          "value": 64
+        }
+      ]
+    },
+    {
+      "name": "stand_right",
+      "images": [
+        "images\/sprite_collections\/test_player_square\/test_player_square.png"
+      ],
+      "default_speed": 1.0,
+      "image_width": 64,
+      "image_height": 64,
+      "properties": [
+        {
+          "name": "move_to",
+          "type": "str",
+          "value": "0000"
+        },
+        {
+          "name": "base_offset_x_start",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "base_offset_y_start",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "base_offset_x_end",
+          "type": "int",
+          "value": 64
+        },
+        {
+          "name": "base_offset_y_end",
+          "type": "int",
+          "value": 64
+        }
+      ]
+    },
+    {
+      "name": "walk_right",
+      "images": [
+        "images\/sprite_collections\/test_player_square\/test_player_square.png"
+      ],
+      "default_speed": 0.14,
+      "image_width": 64,
+      "image_height": 64,
+      "properties": [
+        {
+          "name": "move_to",
+          "type": "str",
+          "value": "0000"
+        },
+        {
+          "name": "base_offset_x_start",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "base_offset_y_start",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "base_offset_x_end",
+          "type": "int",
+          "value": 64
+        },
+        {
+          "name": "base_offset_y_end",
+          "type": "int",
+          "value": 64
+        }
+      ]
+    },
+    {
+      "name": "run_right",
+      "images": [
+        "images\/sprite_collections\/test_player_square\/test_player_square.png"
+      ],
+      "default_speed": 0.1,
+      "image_width": 64,
+      "image_height": 64,
+      "properties": [
+        {
+          "name": "move_to",
+          "type": "str",
+          "value": "0000"
+        },
+        {
+          "name": "base_offset_x_start",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "base_offset_y_start",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "base_offset_x_end",
+          "type": "int",
+          "value": 64
+        },
+        {
+          "name": "base_offset_y_end",
+          "type": "int",
+          "value": 64
+        }
+      ]
+    },
+    {
+      "name": "stand_up",
+      "images": [
+        "images\/sprite_collections\/test_player_square\/test_player_square.png"
+      ],
+      "default_speed": 1.0,
+      "image_width": 64,
+      "image_height": 64,
+      "properties": [
+        {
+          "name": "move_to",
+          "type": "str",
+          "value": "0000"
+        },
+        {
+          "name": "base_offset_x_start",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "base_offset_y_start",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "base_offset_x_end",
+          "type": "int",
+          "value": 64
+        },
+        {
+          "name": "base_offset_y_end",
+          "type": "int",
+          "value": 64
+        }
+      ]
+    },
+    {
+      "name": "walk_up",
+      "images": [
+        "images\/sprite_collections\/test_player_square\/test_player_square.png"
+      ],
+      "default_speed": 0.14,
+      "image_width": 64,
+      "image_height": 64,
+      "properties": [
+        {
+          "name": "move_to",
+          "type": "str",
+          "value": "0000"
+        },
+        {
+          "name": "base_offset_x_start",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "base_offset_y_start",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "base_offset_x_end",
+          "type": "int",
+          "value": 64
+        },
+        {
+          "name": "base_offset_y_end",
+          "type": "int",
+          "value": 64
+        }
+      ]
+    },
+    {
+      "name": "run_up",
+      "images": [
+        "images\/sprite_collections\/test_player_square\/test_player_square.png"
+      ],
+      "default_speed": 0.1,
+      "image_width": 64,
+      "image_height": 64,
+      "properties": [
+        {
+          "name": "move_to",
+          "type": "str",
+          "value": "0000"
+        },
+        {
+          "name": "base_offset_x_start",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "base_offset_y_start",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "name": "base_offset_x_end",
+          "type": "int",
+          "value": 64
+        },
+        {
+          "name": "base_offset_y_end",
+          "type": "int",
+          "value": 64
+        }
+      ]
+    }
+  ]
+}

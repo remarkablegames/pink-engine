@@ -1,0 +1,100 @@
+{
+  "animations": [
+    {
+      "name": "stand_left",
+      "default_speed": 0.1,
+      "images": ["images\/sprite_collections\/test_player_star\/player_tile_left.png"],
+      "image_height":64,
+      "image_width":64,
+      "properties":[
+             {"name":"move_to", "type":"string", "value":"0000"}]},
+    {
+      "name": "walk_left",
+      "default_speed": 0.1,
+      "images": ["images\/sprite_collections\/test_player_star\/player_tile_left.png", "images\/sprite_collections\/test_player_star\/player_tile_left_walk.png"],
+      "image_height":64,
+      "image_width":64,
+      "properties":[
+             {"name":"move_to", "type":"string", "value":"0000"}]},
+    {
+      "name": "run_left",
+      "default_speed": 0.07,
+      "images": ["images\/sprite_collections\/test_player_star\/player_tile_left.png", "images\/sprite_collections\/test_player_star\/player_tile_left_walk.png"],
+      "image_height":64,
+      "image_width":64,
+      "properties":[
+             {"name":"move_to", "type":"string", "value":"0000"}]},
+    {
+      "name": "stand_right",
+      "default_speed": 0.1,
+      "images": ["images\/sprite_collections\/test_player_star\/player_tile_right.png"],
+      "image_height":64,
+      "image_width":64,
+      "properties":[
+             {"name":"move_to", "type":"string", "value":"0000"}]},
+    {
+      "name": "walk_right",
+      "default_speed": 0.1,
+      "images": ["images\/sprite_collections\/test_player_star\/player_tile_right.png", "images\/sprite_collections\/test_player_star\/player_tile_right_walk.png"],
+      "image_height":64,
+      "image_width":64,
+      "properties":[
+             {"name":"move_to", "type":"string", "value":"0000"}]},
+    {
+      "name": "run_right",
+      "default_speed": 0.07,
+      "images": ["images\/sprite_collections\/test_player_star\/player_tile_right.png", "images\/sprite_collections\/test_player_star\/player_tile_right_walk.png"],
+      "image_height":64,
+      "image_width":64,
+      "properties":[
+             {"name":"move_to", "type":"string", "value":"0000"}]},
+    {
+      "name": "stand_up",
+      "default_speed": 0.1,
+      "images": ["images\/sprite_collections\/test_player_star\/player_tile_up.png"],
+      "image_height":64,
+      "image_width":64,
+      "properties":[
+             {"name":"move_to", "type":"string", "value":"0000"}]},
+    {
+      "name": "walk_up",
+      "default_speed": 0.1,
+      "images": ["images\/sprite_collections\/test_player_star\/player_tile_up.png", "images\/sprite_collections\/test_player_star\/player_tile_up_walk.png"],
+      "image_height":64,
+      "image_width":64,
+      "properties":[
+             {"name":"move_to", "type":"string", "value":"0000"}]},
+    {
+      "name": "run_up",
+      "default_speed": 0.07,
+      "images": ["images\/sprite_collections\/test_player_star\/player_tile_up.png", "images\/sprite_collections\/test_player_star\/player_tile_up_walk.png"],
+      "image_height":64,
+      "image_width":64,
+      "properties":[
+             {"name":"move_to", "type":"string", "value":"0000"}]},
+    {
+      "name": "stand_down",
+      "default_speed": 0.1,
+      "images": ["images\/sprite_collections\/test_player_star\/player_tile_down.png"],
+      "image_height":64,
+      "image_width":64,
+      "properties":[
+             {"name":"move_to", "type":"string", "value":"0000"}]},
+    {
+      "name": "walk_down",
+      "default_speed": 0.1,
+      "images": ["images\/sprite_collections\/test_player_star\/player_tile_down.png", "images\/sprite_collections\/test_player_star\/player_tile_down_walk.png"],
+      "image_height":64,
+      "image_width":64,
+      "properties":[
+             {"name":"move_to", "type":"string", "value":"0000"}]},
+    {
+      "name": "run_down",
+      "default_speed": 0.07,
+      "images": ["images\/sprite_collections\/test_player_star\/player_tile_down.png", "images\/sprite_collections\/test_player_star\/player_tile_down_walk.png"],
+      "image_height":64,
+      "image_width":64,
+      "properties":[
+             {"name":"move_to", "type":"string", "value":"0000"}]}
+  ]
+}

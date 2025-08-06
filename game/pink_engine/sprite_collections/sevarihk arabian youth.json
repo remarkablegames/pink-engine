@@ -1,0 +1,547 @@
+{
+  "animations": [
+    {
+      "name": "stand_left",
+      "images": [
+        "images\/sprite_collections\/sevarihk arabian youth\/sev_b_walk_left_0.png"
+      ],
+      "default_speed": 0.1,
+      "image_width": 64,
+      "image_height": 64,
+      "properties": [
+        {
+          "name": "base_offset_x_start",
+          "type": "int",
+          "value": 16
+        },
+        {
+          "name": "base_offset_x_end",
+          "type": "int",
+          "value": 46
+        },
+        {
+          "name": "base_offset_y_start",
+          "type": "int",
+          "value": 52
+        },
+        {
+          "name": "base_offset_y_end",
+          "type": "int",
+          "value": 62
+        },
+        {
+          "name": "move_to",
+          "type": "str",
+          "value": "0000"
+        }
+      ]
+    },
+    {
+      "name": "walk_left",
+      "images": [
+        "images\/sprite_collections\/sevarihk arabian youth\/sev_b_walk_left_0.png",
+        "images\/sprite_collections\/sevarihk arabian youth\/sev_b_walk_left_1.png",
+        "images\/sprite_collections\/sevarihk arabian youth\/sev_b_walk_left_0.png",
+        "images\/sprite_collections\/sevarihk arabian youth\/sev_b_walk_left_2.png"
+      ],
+      "default_speed": 0.1,
+      "image_width": 64,
+      "image_height": 64,
+      "properties": [
+        {
+          "name": "base_offset_x_start",
+          "type": "int",
+          "value": 16
+        },
+        {
+          "name": "base_offset_x_end",
+          "type": "int",
+          "value": 46
+        },
+        {
+          "name": "base_offset_y_start",
+          "type": "int",
+          "value": 52
+        },
+        {
+          "name": "base_offset_y_end",
+          "type": "int",
+          "value": 62
+        },
+        {
+          "name": "move_to",
+          "type": "str",
+          "value": "0000"
+        }
+      ]
+    },
+    {
+      "name": "run_left",
+      "images": [
+        "images\/sprite_collections\/sevarihk arabian youth\/sev_b_walk_left_0.png",
+        "images\/sprite_collections\/sevarihk arabian youth\/sev_b_walk_left_1.png",
+        "images\/sprite_collections\/sevarihk arabian youth\/sev_b_walk_left_0.png",
+        "images\/sprite_collections\/sevarihk arabian youth\/sev_b_walk_left_2.png"
+      ],
+      "default_speed": 0.1,
+      "image_width": 64,
+      "image_height": 64,
+      "properties": [
+        {
+          "name": "base_offset_x_start",
+          "type": "int",
+          "value": 16
+        },
+        {
+          "name": "base_offset_x_end",
+          "type": "int",
+          "value": 46
+        },
+        {
+          "name": "base_offset_y_start",
+          "type": "int",
+          "value": 52
+        },
+        {
+          "name": "base_offset_y_end",
+          "type": "int",
+          "value": 62
+        },
+        {
+          "name": "move_to",
+          "type": "str",
+          "value": "0000"
+        }
+      ]
+    },
+    {
+      "name": "stand_right",
+      "images": [
+        "images\/sprite_collections\/sevarihk arabian youth\/sev_b_walk_right_0.png"
+      ],
+      "default_speed": 0.1,
+      "image_width": 64,
+      "image_height": 64,
+      "properties": [
+        {
+          "name": "base_offset_x_start",
+          "type": "int",
+          "value": 16
+        },
+        {
+          "name": "base_offset_x_end",
+          "type": "int",
+          "value": 46
+        },
+        {
+          "name": "base_offset_y_start",
+          "type": "int",
+          "value": 52
+        },
+        {
+          "name": "base_offset_y_end",
+          "type": "int",
+          "value": 62
+        },
+        {
+          "name": "move_to",
+          "type": "str",
+          "value": "0000"
+        }
+      ]
+    },
+    {
+      "name": "walk_right",
+      "images": [
+        "images\/sprite_collections\/sevarihk arabian youth\/sev_b_walk_right_0.png",
+        "images\/sprite_collections\/sevarihk arabian youth\/sev_b_walk_right_1.png",
+        "images\/sprite_collections\/sevarihk arabian youth\/sev_b_walk_right_0.png",
+        "images\/sprite_collections\/sevarihk arabian youth\/sev_b_walk_right_2.png"
+      ],
+      "default_speed": 0.1,
+      "image_width": 64,
+      "image_height": 64,
+      "properties": [
+        {
+          "name": "base_offset_x_start",
+          "type": "int",
+          "value": 16
+        },
+        {
+          "name": "base_offset_x_end",
+          "type": "int",
+          "value": 46
+        },
+        {
+          "name": "base_offset_y_start",
+          "type": "int",
+          "value": 52
+        },
+        {
+          "name": "base_offset_y_end",
+          "type": "int",
+          "value": 62
+        },
+        {
+          "name": "move_to",
+          "type": "str",
+          "value": "0000"
+        }
+      ]
+    },
+    {
+      "name": "run_right",
+      "images": [
+        "images\/sprite_collections\/sevarihk arabian youth\/sev_b_walk_right_0.png",
+        "images\/sprite_collections\/sevarihk arabian youth\/sev_b_walk_right_1.png",
+        "images\/sprite_collections\/sevarihk arabian youth\/sev_b_walk_right_0.png",
+        "images\/sprite_collections\/sevarihk arabian youth\/sev_b_walk_right_2.png"
+      ],
+      "default_speed": 0.07,
+      "image_width": 64,
+      "image_height": 64,
+      "properties": [
+        {
+          "name": "base_offset_x_start",
+          "type": "int",
+          "value": 16
+        },
+        {
+          "name": "base_offset_x_end",
+          "type": "int",
+          "value": 46
+        },
+        {
+          "name": "base_offset_y_start",
+          "type": "int",
+          "value": 52
+        },
+        {
+          "name": "base_offset_y_end",
+          "type": "int",
+          "value": 62
+        },
+        {
+          "name": "move_to",
+          "type": "str",
+          "value": "0000"
+        }
+      ]
+    },
+    {
+      "name": "stand_down",
+      "images": [
+        "images\/sprite_collections\/sevarihk arabian youth\/sev_b_walk_down_0.png"
+      ],
+      "default_speed": 0.1,
+      "image_width": 64,
+      "image_height": 64,
+      "properties": [
+        {
+          "name": "base_offset_x_start",
+          "type": "int",
+          "value": 16
+        },
+        {
+          "name": "base_offset_x_end",
+          "type": "int",
+          "value": 46
+        },
+        {
+          "name": "base_offset_y_start",
+          "type": "int",
+          "value": 52
+        },
+        {
+          "name": "base_offset_y_end",
+          "type": "int",
+          "value": 62
+        },
+        {
+          "name": "move_to",
+          "type": "str",
+          "value": "0000"
+        }
+      ]
+    },
+    {
+      "name": "walk_down",
+      "images": [
+        "images\/sprite_collections\/sevarihk arabian youth\/sev_b_walk_down_0.png",
+        "images\/sprite_collections\/sevarihk arabian youth\/sev_b_walk_down_1.png",
+        "images\/sprite_collections\/sevarihk arabian youth\/sev_b_walk_down_0.png",
+        "images\/sprite_collections\/sevarihk arabian youth\/sev_b_walk_down_2.png"
+      ],
+      "default_speed": 0.1,
+      "image_width": 64,
+      "image_height": 64,
+      "properties": [
+        {
+          "name": "base_offset_x_start",
+          "type": "int",
+          "value": 16
+        },
+        {
+          "name": "base_offset_x_end",
+          "type": "int",
+          "value": 46
+        },
+        {
+          "name": "base_offset_y_start",
+          "type": "int",
+          "value": 52
+        },
+        {
+          "name": "base_offset_y_end",
+          "type": "int",
+          "value": 62
+        },
+        {
+          "name": "move_to",
+          "type": "str",
+          "value": "0000"
+        }
+      ]
+    },
+    {
+      "name": "run_down",
+      "images": [
+        "images\/sprite_collections\/sevarihk arabian youth\/sev_b_walk_down_0.png",
+        "images\/sprite_collections\/sevarihk arabian youth\/sev_b_walk_down_1.png",
+        "images\/sprite_collections\/sevarihk arabian youth\/sev_b_walk_down_0.png",
+        "images\/sprite_collections\/sevarihk arabian youth\/sev_b_walk_down_2.png"
+      ],
+      "default_speed": 0.1,
+      "image_width": 64,
+      "image_height": 64,
+      "properties": [
+        {
+          "name": "base_offset_x_start",
+          "type": "int",
+          "value": 16
+        },
+        {
+          "name": "base_offset_x_end",
+          "type": "int",
+          "value": 46
+        },
+        {
+          "name": "base_offset_y_start",
+          "type": "int",
+          "value": 52
+        },
+        {
+          "name": "base_offset_y_end",
+          "type": "int",
+          "value": 62
+        },
+        {
+          "name": "move_to",
+          "type": "str",
+          "value": "0000"
+        }
+      ]
+    },
+    {
+      "name": "stand_up",
+      "images": [
+        "images\/sprite_collections\/sevarihk arabian youth\/sev_b_walk_up_0.png"
+      ],
+      "default_speed": 0.1,
+      "image_width": 64,
+      "image_height": 64,
+      "properties": [
+        {
+          "name": "base_offset_x_start",
+          "type": "int",
+          "value": 16
+        },
+        {
+          "name": "base_offset_x_end",
+          "type": "int",
+          "value": 46
+        },
+        {
+          "name": "base_offset_y_start",
+          "type": "int",
+          "value": 52
+        },
+        {
+          "name": "base_offset_y_end",
+          "type": "int",
+          "value": 62
+        },
+        {
+          "name": "move_to",
+          "type": "str",
+          "value": "0000"
+        }
+      ]
+    },
+    {
+      "name": "walk_up",
+      "images": [
+        "images\/sprite_collections\/sevarihk arabian youth\/sev_b_walk_up_0.png",
+        "images\/sprite_collections\/sevarihk arabian youth\/sev_b_walk_up_1.png",
+        "images\/sprite_collections\/sevarihk arabian youth\/sev_b_walk_up_0.png",
+        "images\/sprite_collections\/sevarihk arabian youth\/sev_b_walk_up_2.png"
+      ],
+      "default_speed": 0.1,
+      "image_width": 64,
+      "image_height": 64,
+      "properties": [
+        {
+          "name": "base_offset_x_start",
+          "type": "int",
+          "value": 16
+        },
+        {
+          "name": "base_offset_x_end",
+          "type": "int",
+          "value": 46
+        },
+        {
+          "name": "base_offset_y_start",
+          "type": "int",
+          "value": 52
+        },
+        {
+          "name": "base_offset_y_end",
+          "type": "int",
+          "value": 62
+        },
+        {
+          "name": "move_to",
+          "type": "str",
+          "value": "0000"
+        }
+      ]
+    },
+    {
+      "name": "run_up",
+      "images": [
+        "images\/sprite_collections\/sevarihk arabian youth\/sev_b_walk_up_0.png",
+        "images\/sprite_collections\/sevarihk arabian youth\/sev_b_walk_up_1.png",
+        "images\/sprite_collections\/sevarihk arabian youth\/sev_b_walk_up_0.png",
+        "images\/sprite_collections\/sevarihk arabian youth\/sev_b_walk_up_2.png"
+      ],
+      "default_speed": 0.1,
+      "image_width": 64,
+      "image_height": 64,
+      "properties": [
+        {
+          "name": "base_offset_x_start",
+          "type": "int",
+          "value": 16
+        },
+        {
+          "name": "base_offset_x_end",
+          "type": "int",
+          "value": 46
+        },
+        {
+          "name": "base_offset_y_start",
+          "type": "int",
+          "value": 52
+        },
+        {
+          "name": "base_offset_y_end",
+          "type": "int",
+          "value": 62
+        },
+        {
+          "name": "move_to",
+          "type": "str",
+          "value": "0000"
+        }
+      ]
+    },
+    {
+      "name": "pants_adjust",
+      "images": [
+        "images\/sprite_collections\/sevarihk arabian youth\/sev_b_pants_pull_0.png",
+        "images\/sprite_collections\/sevarihk arabian youth\/sev_b_pants_pull_1.png",
+        "images\/sprite_collections\/sevarihk arabian youth\/sev_b_pants_pull_2.png",
+        "images\/sprite_collections\/sevarihk arabian youth\/sev_b_pants_pull_3.png"
+      ],
+      "default_speed": 0.14,
+      "image_width": 64,
+      "image_height": 64,
+      "properties": [
+        {
+          "name": "base_offset_x_start",
+          "type": "int",
+          "value": 16
+        },
+        {
+          "name": "base_offset_x_end",
+          "type": "int",
+          "value": 46
+        },
+        {
+          "name": "base_offset_y_start",
+          "type": "int",
+          "value": 52
+        },
+        {
+          "name": "base_offset_y_end",
+          "type": "int",
+          "value": 62
+        },
+        {
+          "name": "move_to",
+          "type": "str",
+          "value": "0000"
+        }
+      ]
+    },
+    {
+      "name": "turn_talk",
+      "images": [
+        "images\/sprite_collections\/sevarihk arabian youth\/sev_b_turn_0.png",
+        "images\/sprite_collections\/sevarihk arabian youth\/sev_b_turn_1.png",
+        "images\/sprite_collections\/sevarihk arabian youth\/sev_b_turn_2.png",
+        "images\/sprite_collections\/sevarihk arabian youth\/sev_b_turn_3.png",
+        "images\/sprite_collections\/sevarihk arabian youth\/sev_b_turn_4.png",
+        "images\/sprite_collections\/sevarihk arabian youth\/sev_b_turn_5.png",
+        "images\/sprite_collections\/sevarihk arabian youth\/sev_b_turn_3.png",
+        "images\/sprite_collections\/sevarihk arabian youth\/sev_b_turn_6.png",
+        "images\/sprite_collections\/sevarihk arabian youth\/sev_b_turn_5.png",
+        "images\/sprite_collections\/sevarihk arabian youth\/sev_b_turn_3.png",
+        "images\/sprite_collections\/sevarihk arabian youth\/sev_b_turn_2.png",
+        "images\/sprite_collections\/sevarihk arabian youth\/sev_b_turn_1.png",
+        "images\/sprite_collections\/sevarihk arabian youth\/sev_b_turn_0.png"
+      ],
+      "default_speed": 0.1,
+      "image_width": 64,
+      "image_height": 64,
+      "properties": [
+        {
+          "name": "base_offset_x_start",
+          "type": "int",
+          "value": 16
+        },
+        {
+          "name": "base_offset_x_end",
+          "type": "int",
+          "value": 46
+        },
+        {
+          "name": "base_offset_y_start",
+          "type": "int",
+          "value": 52
+        },
+        {
+          "name": "base_offset_y_end",
+          "type": "int",
+          "value": 62
+        },
+        {
+          "name": "move_to",
+          "type": "str",
+          "value": "0000"
+        }
+      ]
+    }
+  ]
+}

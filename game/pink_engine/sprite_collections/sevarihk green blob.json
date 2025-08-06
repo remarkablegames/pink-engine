@@ -1,0 +1,208 @@
+{
+  "animations": [
+    {
+      "name": "stand_down",
+      "images": [
+        "images\/sprite_collections\/sevarihk green blob\/sevarihk green blob_stand_down_0.png"
+      ],
+      "default_speed": 1.0,
+      "image_width": 50,
+      "image_height": 64,
+      "properties": [
+        {"name": "base_offset_x_start", "type": "int", "value": 9},
+        {"name": "base_offset_x_end", "type": "int", "value": 40},
+        {"name": "base_offset_y_start", "type": "int", "value": 55},
+        {"name": "base_offset_y_end", "type": "int", "value": 58},
+        {"name": "move_to", "type": "str", "value": "0000"}]
+    },
+    {
+      "name": "walk_down",
+      "images": [
+        "images\/sprite_collections\/sevarihk green blob\/sevarihk green blob_walk_down_0.png",
+        "images\/sprite_collections\/sevarihk green blob\/sevarihk green blob_walk_down_1.png",
+        "images\/sprite_collections\/sevarihk green blob\/sevarihk green blob_walk_down_2.png",
+        "images\/sprite_collections\/sevarihk green blob\/sevarihk green blob_walk_down_3.png"
+      ],
+      "default_speed": 0.14,
+      "image_width": 50,
+      "image_height": 64,
+      "properties": [
+        {"name": "base_offset_x_start", "type": "int", "value": 9},
+        {"name": "base_offset_x_end", "type": "int", "value": 40},
+        {"name": "base_offset_y_start", "type": "int", "value": 55},
+        {"name": "base_offset_y_end", "type": "int", "value": 58},
+        {"name": "move_to", "type": "str", "value": "0000"}]
+    },
+    {
+      "name": "run_down",
+      "images": [
+        "images\/sprite_collections\/sevarihk green blob\/sevarihk green blob_run_down_0.png",
+        "images\/sprite_collections\/sevarihk green blob\/sevarihk green blob_run_down_1.png",
+        "images\/sprite_collections\/sevarihk green blob\/sevarihk green blob_run_down_2.png",
+        "images\/sprite_collections\/sevarihk green blob\/sevarihk green blob_run_down_3.png"
+      ],
+      "default_speed": 0.1,
+      "image_width": 50,
+      "image_height": 64,
+      "properties": [
+        {"name": "base_offset_x_start", "type": "int", "value": 9},
+        {"name": "base_offset_x_end", "type": "int", "value": 40},
+        {"name": "base_offset_y_start", "type": "int", "value": 55},
+        {"name": "base_offset_y_end", "type": "int", "value": 58},
+        {"name": "move_to", "type": "str", "value": "0000"}]
+    },
+    {
+      "name": "stand_left",
+      "images": [
+        "images\/sprite_collections\/sevarihk green blob\/sevarihk green blob_stand_left_0.png"
+      ],
+      "default_speed": 1.0,
+      "image_width": 50,
+      "image_height": 64,
+      "properties": [
+        {"name": "base_offset_x_start", "type": "int", "value": 9},
+        {"name": "base_offset_x_end", "type": "int", "value": 40},
+        {"name": "base_offset_y_start", "type": "int", "value": 55},
+        {"name": "base_offset_y_end", "type": "int", "value": 58},
+        {"name": "move_to", "type": "str", "value": "0000"}]
+    },
+    {
+      "name": "walk_left",
+      "images": [
+        "images\/sprite_collections\/sevarihk green blob\/sevarihk green blob_walk_left_0.png",
+        "images\/sprite_collections\/sevarihk green blob\/sevarihk green blob_walk_left_1.png",
+        "images\/sprite_collections\/sevarihk green blob\/sevarihk green blob_walk_left_2.png",
+        "images\/sprite_collections\/sevarihk green blob\/sevarihk green blob_walk_left_3.png"
+      ],
+      "default_speed": 0.14,
+      "image_width": 50,
+      "image_height": 64,
+      "properties": [
+        {"name": "base_offset_x_start", "type": "int", "value": 9},
+        {"name": "base_offset_x_end", "type": "int", "value": 40},
+        {"name": "base_offset_y_start", "type": "int", "value": 55},
+        {"name": "base_offset_y_end", "type": "int", "value": 58},
+        {"name": "move_to", "type": "str", "value": "0000"}]
+    },
+    {
+      "name": "run_left",
+      "images": [
+        "images\/sprite_collections\/sevarihk green blob\/sevarihk green blob_run_left_0.png",
+        "images\/sprite_collections\/sevarihk green blob\/sevarihk green blob_run_left_1.png",
+        "images\/sprite_collections\/sevarihk green blob\/sevarihk green blob_run_left_2.png",
+        "images\/sprite_collections\/sevarihk green blob\/sevarihk green blob_run_left_3.png"
+      ],
+      "default_speed": 0.1,
+      "image_width": 50,
+      "image_height": 64,
+      "properties": [
+        {"name": "base_offset_x_start", "type": "int", "value": 9},
+        {"name": "base_offset_x_end", "type": "int", "value": 40},
+        {"name": "base_offset_y_start", "type": "int", "value": 55},
+        {"name": "base_offset_y_end", "type": "int", "value": 58},
+        {"name": "move_to", "type": "str", "value": "0000"}]
+    },
+    {
+      "name": "stand_right",
+      "images": [
+        "images\/sprite_collections\/sevarihk green blob\/sevarihk green blob_stand_right_0.png"
+      ],
+      "default_speed": 1.0,
+      "image_width": 50,
+      "image_height": 64,
+      "properties": [
+        {"name": "base_offset_x_start", "type": "int", "value": 9},
+        {"name": "base_offset_x_end", "type": "int", "value": 40},
+        {"name": "base_offset_y_start", "type": "int", "value": 55},
+        {"name": "base_offset_y_end", "type": "int", "value": 58},
+        {"name": "move_to", "type": "str", "value": "0000"}]
+    },
+    {
+      "name": "walk_right",
+      "images": [
+        "images\/sprite_collections\/sevarihk green blob\/sevarihk green blob_walk_right_0.png",
+        "images\/sprite_collections\/sevarihk green blob\/sevarihk green blob_walk_right_1.png",
+        "images\/sprite_collections\/sevarihk green blob\/sevarihk green blob_walk_right_2.png",
+        "images\/sprite_collections\/sevarihk green blob\/sevarihk green blob_walk_right_3.png"
+      ],
+      "default_speed": 0.14,
+      "image_width": 50,
+      "image_height": 64,
+      "properties": [
+        {"name": "base_offset_x_start", "type": "int", "value": 9},
+        {"name": "base_offset_x_end", "type": "int", "value": 40},
+        {"name": "base_offset_y_start", "type": "int", "value": 55},
+        {"name": "base_offset_y_end", "type": "int", "value": 58},
+        {"name": "move_to", "type": "str", "value": "0000"}]
+    },
+    {
+      "name": "run_right",
+      "images": [
+        "images\/sprite_collections\/sevarihk green blob\/sevarihk green blob_run_right_0.png",
+        "images\/sprite_collections\/sevarihk green blob\/sevarihk green blob_run_right_1.png",
+        "images\/sprite_collections\/sevarihk green blob\/sevarihk green blob_run_right_2.png",
+        "images\/sprite_collections\/sevarihk green blob\/sevarihk green blob_run_right_3.png"
+      ],
+      "default_speed": 0.1,
+      "image_width": 50,
+      "image_height": 64,
+      "properties": [
+        {"name": "base_offset_x_start", "type": "int", "value": 9},
+        {"name": "base_offset_x_end", "type": "int", "value": 40},
+        {"name": "base_offset_y_start", "type": "int", "value": 55},
+        {"name": "base_offset_y_end", "type": "int", "value": 58},
+        {"name": "move_to", "type": "str", "value": "0000"}]
+    },
+    {
+      "name": "stand_up",
+      "images": [
+        "images\/sprite_collections\/sevarihk green blob\/sevarihk green blob_stand_up_0.png"
+      ],
+      "default_speed": 1.0,
+      "image_width": 50,
+      "image_height": 64,
+      "properties": [
+        {"name": "base_offset_x_start", "type": "int", "value": 9},
+        {"name": "base_offset_x_end", "type": "int", "value": 40},
+        {"name": "base_offset_y_start", "type": "int", "value": 55},
+        {"name": "base_offset_y_end", "type": "int", "value": 58},
+        {"name": "move_to", "type": "str", "value": "0000"}]
+    },
+    {
+      "name": "walk_up",
+      "images": [
+        "images\/sprite_collections\/sevarihk green blob\/sevarihk green blob_walk_up_0.png",
+        "images\/sprite_collections\/sevarihk green blob\/sevarihk green blob_walk_up_1.png",
+        "images\/sprite_collections\/sevarihk green blob\/sevarihk green blob_walk_up_2.png",
+        "images\/sprite_collections\/sevarihk green blob\/sevarihk green blob_walk_up_3.png"
+      ],
+      "default_speed": 0.14,
+      "image_width": 50,
+      "image_height": 64,
+      "properties": [
+        {"name": "base_offset_x_start", "type": "int", "value": 9},
+        {"name": "base_offset_x_end", "type": "int", "value": 40},
+        {"name": "base_offset_y_start", "type": "int", "value": 55},
+        {"name": "base_offset_y_end", "type": "int", "value": 58},
+        {"name": "move_to", "type": "str", "value": "0000"}]
+    },
+    {
+      "name": "run_up",
+      "images": [
+        "images\/sprite_collections\/sevarihk green blob\/sevarihk green blob_run_up_0.png",
+        "images\/sprite_collections\/sevarihk green blob\/sevarihk green blob_run_up_1.png",
+        "images\/sprite_collections\/sevarihk green blob\/sevarihk green blob_run_up_2.png",
+        "images\/sprite_collections\/sevarihk green blob\/sevarihk green blob_run_up_3.png"
+      ],
+      "default_speed": 0.1,
+      "image_width": 50,
+      "image_height": 64,
+      "properties": [
+        {"name": "base_offset_x_start", "type": "int", "value": 9},
+        {"name": "base_offset_x_end", "type": "int", "value": 40},
+        {"name": "base_offset_y_start", "type": "int", "value": 55},
+        {"name": "base_offset_y_end", "type": "int", "value": 58},
+        {"name": "move_to", "type": "str", "value": "0000"}]
+    }
+  ]
+}

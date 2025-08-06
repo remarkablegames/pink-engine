@@ -1,0 +1,36 @@
+{
+  "animations": [
+    {
+      "name": "exist",
+      "default_speed": 1,
+      "images": ["images\/sprite_collections\/empty_sprite_collection\/empty_square.png"],
+      "image_height":2,
+      "image_width":2,
+      "properties":[]
+    },
+    {
+      "name": "stand",
+      "default_speed": 1,
+      "images": ["images\/sprite_collections\/empty_sprite_collection\/empty_square.png"],
+      "image_height":2,
+      "image_width":2,
+      "properties":[]
+    },
+    {
+      "name": "walk",
+      "default_speed": 1,
+      "images": ["images\/sprite_collections\/empty_sprite_collection\/empty_square.png"],
+      "image_height":2,
+      "image_width":2,
+      "properties":[]
+    },
+    {
+      "name": "run",
+      "default_speed": 1,
+      "images": ["images\/sprite_collections\/empty_sprite_collection\/empty_square.png"],
+      "image_height":2,
+      "image_width":2,
+      "properties":[]
+    }
+  ]
+}

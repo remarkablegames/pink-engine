@@ -1,0 +1,28 @@
+{
+  "animations": [
+    {
+      "name": "off",
+      "default_speed": 0.2,
+      "images": ["images\/sprite_collections\/test_demon_circle\/pentagram_off_0.png", "images\/sprite_collections\/test_demon_circle\/pentagram_off_1.png", "images\/sprite_collections\/test_demon_circle\/pentagram_off_2.png"],
+      "image_height":120,
+      "image_width":110,
+      "properties":[]
+    },
+    {
+      "name": "glow",
+      "default_speed": 0.2,
+      "images": ["images\/sprite_collections\/test_demon_circle\/pentagram_glow_0.png", "images\/sprite_collections\/test_demon_circle\/pentagram_glow_1.png", "images\/sprite_collections\/test_demon_circle\/pentagram_glow_2.png"],
+      "image_height":120,
+      "image_width":110,
+      "properties":[]
+    },
+    {
+      "name": "active",
+      "default_speed": 0.2,
+      "images": ["images\/sprite_collections\/test_demon_circle\/pentagram_active_0.png", "images\/sprite_collections\/test_demon_circle\/pentagram_active_1.png", "images\/sprite_collections\/test_demon_circle\/pentagram_active_2.png"],
+      "image_height":120,
+      "image_width":110,
+      "properties":[]
+    }
+  ]
+}
