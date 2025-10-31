@@ -3881,6 +3881,22 @@ class OrthogonalTiledCamera(TiledMapCamera):
         self.xzoom = renpy.store.pink_otm_camera_current_xzoom
         self.yzoom = renpy.store.pink_otm_camera_current_yzoom
 
+    def set_default_zoom(self, zoom):
+        """
+        Sets this camera's x and y zoom to the given value
+        :param float zoom: the given zoom value
+        """
+        self.set_default_x_zoom(zoom)
+        self.set_default_y_zoom(zoom)
+
+    def set_default_x_zoom(self, xzoom):
+        # TODO something
+        self.set_x_zoom(xzoom)
+
+    def set_default_y_zoom(self, yzoom):
+        # TODO something
+        self.set_y_zoom(yzoom)
+
     def set_zoom(self, zoom):
         """
         Sets this camera's x and y zoom to the given value
@@ -5726,6 +5742,18 @@ class OrthogonalTiledMap(TiledMapGame):
         """
         return self._overlay_manager.is_shaking
 
+    @property
+    def zoom(self):
+        return self.properties.get('zoom', None)
+
+    @property
+    def x_zoom(self):
+        return self.properties.get('x_zoom', self.zoom)
+
+    @property
+    def y_zoom(self):
+        return self.properties.get('y_zoom', self.zoom)
+
 
 class StartMapEvent(object):
     def __init__(self, condition, event, priority, triggering_object, event_args, event_kwargs):
@@ -6530,7 +6558,7 @@ class SoundVolumeAreas(ParallelProcess):
             for channel, volume_level in self.channel_defaults.items():
                 if channel not in tick_channels:
                     # Channel does not have a zone this tick, resorting to default behavior.
-                    renpy.exports.music.set_volume(volume_level, delay=0.1, channel=channel)
+                    renpy.exports.music.set_volume(volume_level, delay=0.0, channel=channel)
         ParallelProcess.per_tick(self, gt)
 
     def on_init(self):
@@ -7188,6 +7216,10 @@ def go_to_map(
     elif renpy.store.pink_otm_current_map:  # To prevent popping when go_to_map from outside event
         # Pops
         renpy.exports.pop_call()
+
+        # Unfreezes old map in case the go_to_map was called from a menu screen, thus unfreezing any sprite collections
+        # that might carry over
+        renpy.store.pink_otm_current_map.unfreeze_map()
 
     # Rollback is restored, if enabled, but can't rollback to before start of event.
     restore_rollback_settings()

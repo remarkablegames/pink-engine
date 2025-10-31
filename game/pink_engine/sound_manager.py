@@ -112,18 +112,19 @@ class PinkChannel:
 
         # Distance is total distance in tiles
         distance = sqrt(
-                pow(abs(emit_pixel.x - listen_pixel.x) / this_map.tile_size.x, 2) +
-                pow(abs(emit_pixel.y - listen_pixel.y) / this_map.tile_size.y, 2))
+            pow(abs(emit_pixel.x - listen_pixel.x) / this_map.tile_size.x, 2) +
+            pow(abs(emit_pixel.y - listen_pixel.y) / this_map.tile_size.y, 2))
         if distance > self.min_volume_distance:
             volume_ratio = self.min_volume
         elif distance <= self.max_volume_distance:
             volume_ratio = self.max_volume
         else:
-            # distance ratio = what ratio of the total distance from ,ax volume to min volume is this distance at.
+            # distance ratio = what ratio of the total distance from max volume to min volume is this distance at.
             distance_ratio = (
-                (distance - self.max_volume_distance) / (self.min_volume_distance - self.max_volume_distance))
-            volume_ratio = 0 + pow(
-                self.max_volume - (self.max_volume * distance_ratio) + (self.min_volume * distance_ratio), 2)
+                    (distance - self.max_volume_distance) / (self.min_volume_distance - self.max_volume_distance))
+            volume_ratio = 0 + self.max_volume - (self.max_volume * distance_ratio) + (self.min_volume * distance_ratio)
+            if volume_ratio < self.min_volume:
+                volume_ratio = self.min_volume
         if self._volume_ratio is None or self._volume_ratio != volume_ratio:
             renpy.exports.music.set_volume(volume_ratio, delay=0, channel=self.channel_id)
             self._volume_ratio = volume_ratio

@@ -132,3 +132,8 @@ label test_corridor_A_sign_A27:
     $ pink.otm.start_continuing_event()
     "Room A-27: Timed Events and Increments"
     $ pink.otm.end_current_event()
+
+label test_corridor_A_sign_A28:
+    $ pink.otm.start_continuing_event()
+    "Room A-28: Zoomed Maps"
+    $ pink.otm.end_current_event()

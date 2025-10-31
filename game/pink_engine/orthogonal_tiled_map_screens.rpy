@@ -30,6 +30,12 @@ label pink_otm_call_map:
         pink_otm_current_camera = pink_otm_current_map.camera
         pink_otm_current_camera.camera_map_refresh()
 
+        if pink_otm_current_map.x_zoom is not None and pink_otm_current_map.x_zoom != pink_otm_camera_current_xzoom:
+            pink_otm_current_camera.set_x_zoom(pink_otm_current_map.x_zoom)
+
+        if pink_otm_current_map.y_zoom is not None and pink_otm_current_map.y_zoom  != pink_otm_camera_current_yzoom:
+            pink_otm_current_camera.set_y_zoom(pink_otm_current_map.y_zoom)
+
         config.rollback_enabled = False
 
         _temp_sound = pink_map_transition_in_sound

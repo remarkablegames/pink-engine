@@ -2928,6 +2928,18 @@ class TiledMapGame(renpy.exports.Displayable):
         for image_name in self.registered_images:
             renpy.exports.stop_predict(image_name)
 
+    @property
+    def zoom(self):
+        return self.properties.get('zoom', renpy.store.pink_tmd_camera_default_zoom)
+
+    @property
+    def x_zoom(self):
+        return self.properties.get('zoom', renpy.store.pink_tmd_camera_default_zoom)
+
+    @property
+    def y_zoom(self):
+        return self.properties.get('zoom', renpy.store.pink_tmd_camera_default_zoom)
+
 
 class TiledMapGameLayer(object):
     def __init__(self, parent, layer_dict):
