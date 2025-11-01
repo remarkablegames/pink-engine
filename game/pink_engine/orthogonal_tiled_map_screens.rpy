@@ -47,7 +47,7 @@ label pink_otm_call_map:
 
     call screen pink_otm_map with _temp_transition
 
-screen pink_otm_map:
+screen pink_otm_map():
     layer "master"
 
     $ map_camera = pink_otm_current_map.camera

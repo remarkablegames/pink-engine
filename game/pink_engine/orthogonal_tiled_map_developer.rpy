@@ -5,7 +5,7 @@ label pink_otm_developer_start:
 label pink_otm_developer_stop:
     $ pink.otm.return_to_otm()
 
-screen pink_developer:
+screen pink_developer():
     vbox:
         text "Press shift+O again to enter the regular console." size pink_console_text_size
         textbutton "Orthogonal Tiled Maps settings" text_size pink_console_text_size action [Hide("pink_developer"), Show("pink_otm_developer")]
@@ -17,7 +17,7 @@ screen pink_developer:
     key "game_menu" action Jump("pink_otm_developer_stop")
 
 
-screen pink_otm_developer:
+screen pink_otm_developer():
     frame:
         xfill True
         yfill True
@@ -95,7 +95,7 @@ screen pink_otm_developer:
                             textbutton " Remove all followers" text_size pink_console_text_size xpadding 0 ypadding 0 action Function(pink.otm.remove_all_followers)
 
 
-screen pink_otm_developer_maps:
+screen pink_otm_developer_maps():
     # This screen takes as arguments:
     #
     # sel_filename
@@ -168,7 +168,7 @@ screen pink_otm_developer_maps:
                         textbutton "+" text_size pink_console_text_size xpadding 0 ypadding 0 action SetScreenVariable('tele_y', min(tele_y + 1, int(grid_size.split('x')[1]) - 1))
                         textbutton "-" text_size pink_console_text_size xpadding 0 ypadding 0 action SetScreenVariable('tele_y', max(tele_y - 1, 0))
 
-screen pink_developer_tilesets:
+screen pink_developer_tilesets():
     # This screen takes as arguments:
     #
     # sel_filename
@@ -215,7 +215,7 @@ screen pink_developer_tilesets:
                     text "Nr. of tiles: [tile_count]" size pink_console_text_size
                     text "Created in tiled version: [tiled_version]" size pink_console_text_size
 
-screen pink_developer_sprites:
+screen pink_developer_sprites():
     # This screen takes as arguments:
     #
     # sel_filename
