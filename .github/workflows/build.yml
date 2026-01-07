@@ -27,9 +27,7 @@ jobs:
           -delete
 
       - name: Build web
-        run: |
-          renpy-launcher web_build . --destination web
-          cp web-presplash.jpg web/web-presplash.jpg
+        run: renpy-launcher web_build . --destination web
 
       - name: Deploy
         if: github.ref_name == 'master'

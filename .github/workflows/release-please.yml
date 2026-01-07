@@ -54,9 +54,7 @@ jobs:
           for filename in ../dists/*; do mv "$filename" "../dists/${filename##*-}"; done
 
       - name: Build web
-        run: |
-          renpy-launcher web_build . --destination ../dists/web
-          cp web-presplash.jpg ../dists/web/web-presplash.jpg
+        run: renpy-launcher web_build . --destination ../dists/web
 
       - name: Setup butler
         uses: remarkablegames/setup-butler@v2
