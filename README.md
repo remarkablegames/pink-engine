@@ -14,16 +14,6 @@ Play the game on:
 
 - [remarkablegames](https://remarkablegames.org/pink-engine)
 
-## Credits
-
-### Art
-
-- [Uncle Mugen](https://lemmasoft.renai.us/forums/viewtopic.php?t=17302)
-
-### Audio
-
-- [Kenney](https://kenney.nl/assets/interface-sounds)
-
 ## Prerequisites
 
 Download [Ren'Py SDK](https://www.renpy.org/latest.html):
