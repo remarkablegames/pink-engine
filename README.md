@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="game/gui/window_icon.png" alt="Pink Engine">
+  <img src="web-icon.png" alt="Pink Engine">
 </p>
 
 # Pink Engine
@@ -55,9 +55,12 @@ git grep -l 'pink-engine' | xargs sed -i '' -e 's/pink-engine/my-game/g'
 
 Replace the assets:
 
-- [ ] `web-presplash.jpg`
 - [ ] `game/gui/main_menu.png`
 - [ ] `game/gui/window_icon.png`
+- [ ] [`icon.icns`](https://anyconv.com/png-to-icns-converter/)
+- [ ] [`icon.ico`](https://anyconv.com/png-to-ico-converter/)
+- [ ] `web-icon.png`
+- [ ] `web-presplash.webp`
 
 ## Run
 
