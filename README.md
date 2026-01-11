@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="web-icon.png" alt="Pink Engine">
+  <img src="web-icon.png" width="250" alt="Pink Engine">
 </p>
 
 # Pink Engine
