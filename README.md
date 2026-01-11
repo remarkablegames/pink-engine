@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/remarkablegames/pink-engine/master/game/gui/window_icon.png" alt="Pink Engine">
+  <img src="game/gui/window_icon.png" alt="Pink Engine">
 </p>
 
 # Pink Engine
@@ -12,7 +12,7 @@
 
 Play the game on:
 
-- [remarkablegames](https://remarkablegames.org/pink-engine)
+- [remarkablegames](https://remarkablegames.org/pink-engine/)
 
 ## Prerequisites
 
